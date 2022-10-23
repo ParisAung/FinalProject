@@ -7,7 +7,7 @@ On streaming services, a playlist is a selection of similar songs customized bas
 Often, those playlist’s names contain words or phrases that express the emotion of music.
 
 # Dataset
-The following data is obtained from Spotify’s mood-based playlists using the spotipy Python library.
+	The following data is obtained from Spotify’s mood-based playlists using the spotipy Python library.
 920 songs 
 10 playlist: ความคิดถึง (missed), 10ปีกับรักแสนเศร้า(sad), ร้องไห้หนักมาก(cry), เป็นท้อ(discourage), เพลงรักไม่เคยลืม (feeling love), 
 	     ฟังเพลินตอนทำงาน (focused), อารมณ์ทะเล (relaxed), เพลงไทยสายชิลล์ (chill-out), เหนื่อยนักพักก่อน (tired) and ชิลล์ฮอป (chill-hop)
@@ -47,6 +47,11 @@ We developed music emotion classification models using various machine learning 
 we noticed that Random Forest worked best with only 3 or 4 emotion labels. Later, we also notice similar results by using K Mean clustering technique. 
 We conclude that based on audio data, those 10 playlists have similar patterns and can be grouped into only 3 collections. 
 
+# Reference
+ - Yang, Y. H., & Chen, H. H. (2012). Machine recognition of music emotion: A review. ACM Transactions on Intelligent Systems and Technology (TIST), 3(3), 1-30.
+ - Schedl, M., Gómez Gutiérrez, E., & Urbano, J. (2014). Music information retrieval: Recent developments and applications. Foundations and Trends in Information Retrieval. 2014 Sept 12; 8 (2-3): 127-261.
+ - R. Akella and T. Moh, "Mood Classification with Lyrics and ConvNets," 2019 18th IEEE International Conference On Machine Learning And Applications (ICMLA), 2019, 
+   pp. 511-514, doi: 10.1109/ICMLA.2019.00095. 
     
     
     
